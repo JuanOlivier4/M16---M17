@@ -29,7 +29,8 @@ pantalla, comentant tots els passos seguits).
 ***Autopsy***
 En la parte de Windows usaremos una herramienta llamada ***Autopsy*** usada para el análisis forense y recuperación de datos. 
 Empezaremos con la instalación de la herramienta.  
-![Alt Image](/imagenes/Captura de pantalla de 2022-09-15 17-22-08.png)
+
+![Alt Image](./imagenes/Autopsy1.png)
 
 
 
