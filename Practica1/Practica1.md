@@ -33,9 +33,14 @@ Empezaremos con la instalación de la herramienta.
 ![Alt Image](./imagenes/Autopsy1.png)
 
 Para el nuevo caso usaremos el disco que hemos descargado de la práctica.
+
 ![Alt Image](./imagenes/Autopsy2.png)
 
+Una vez escogido el disco ejecutamos el programa.
+
 ![Alt Image](./imagenes/Autopsy4.png)
+
+Como 
 
 
 
