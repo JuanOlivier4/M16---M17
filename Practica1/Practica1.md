@@ -47,7 +47,9 @@ Como se puede ver en la imagen anterior con el programa Autopsy hemos sacado var
 ***Foremost***
 
 Ponemos el disco en el directorio de trabajo. 
-![Alt Image]()
+
+![Alt Image](./imagenes/Foremost1.png)
+
 Y empezamos con la extracción de información del disquete con la herramienta foremost.
 La información extraída es un archivo "-txt" y un direcotrio.
 
