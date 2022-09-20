@@ -54,9 +54,17 @@ Ponemos el disco en el directorio de trabajo.
 Y empezamos con la extracción de información del disquete con la herramienta foremost.
 La información extraída es un archivo "-txt" y un direcotrio.
 
+```sh
+foremost disco
+```
+
 ![Alt Image](./imagenes/Foremost2.png)
 
 ![Alt Image](./imagenes/Foremost3.png)
+
+```sh
+cat audit.txt
+```
 
 Hacemos un cat del archivo de texto y nos muestra la información a modo de resumen de lo que hay dentro del disco y de lo que hemos extraído.
 Seguidamente entramos al directorio que hemos conseguido de la extraccíon del disco. Y encontramos 4 archivos .ole los cuales analizaremos con la herramienta Exiftool.
@@ -69,7 +77,7 @@ A la hora de realizar la práctica he encontrado varios problemas con el testdis
 ***Exiftool***
 Exiftool es una herramienta de analisis que usaremos para que nos muestre por pantalla la inforamción de los archivos .ole que hemos conseguido gracias a la extracción de la herramienta anterior.
 
-![Alt Image](./imagenes/Foremost5.png)
+![Alt Image](./imagenes/Foremost9.png)
 
 ![Alt Image](./imagenes/Foremost6.png)
 
@@ -92,7 +100,7 @@ Con esto instalaremos la herramienta.
 ```sh
 libreoffice archivo
 ```
-![Alt Image](./imagenes/Foremost9.png)
+![Alt Image](./imagenes/Foremost5.png)
 
 Al usar la herramienta podemos ver 3 archivos los cuales no tienen importancia pero hay uno que esta guardado con contraseña.
 Para poder entrar al archivo usaremos una herramienta de fuerza bruta llamada John the Ripper por lo tanto procederemos con la instalación.
