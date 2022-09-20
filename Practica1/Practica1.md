@@ -46,6 +46,53 @@ Como se puede ver en la imagen anterior con el programa Autopsy hemos sacado var
 
 ***Foremost***
 
+Ponemos el disco en el directorio de trabajo. 
+![Alt Image]()
+Y empezamos con la extracción de información del disquete con la herramienta foremost.
+La información extraída es un archivo "-txt" y un direcotrio.
+
+Hacemos un cat del archivo de texto y nos muestra la información a modo de resumen de lo que hay dentro del disco y de lo que hemos extraído.
+Seguidamente entramos al directorio que hemos conseguido de la extraccíon del disco. Y encontramos 4 archivos .ole los cuales analizaremos con la herramienta Exiftool.
+
+***Testdisk***
+A la hora de realizar la práctica he encontrado varios problemas con el testdisk que te hemos comentado toda la clase y no hemos conseguido nada con esta herramienta.
+
+***Exiftool***
+Exiftool es una herramienta de analisis que usaremos para que nos muestre por pantalla la inforamción de los archivos .ole que hemos conseguido gracias a la extracción de la herramienta anterior.
+
+Gracias al analisis de esta herramienta podemos ver que los archivos son de tipo Office por lo tanto hemos de instalarnos la herramienta libreoffice con el siguiente comando.
+
+```sh
+sudo apt-get update & upgrade
+```
+Este comando lo usaremos para actualizar el sistema y poder instalar la herramienta que necesitamos
+
+```sh
+sudo apt install libreoffice
+```
+Con esto instalaremos la herramienta.
+
+```sh
+sudo apt install libreoffice
+```
+
+Al usar la herramienta podemos ver 3 archivos los cuales no tienen importancia pero hay uno que esta guardado con contraseña.
+Para poder entrar al archivo usaremos una herramienta de fuerza bruta llamada John the Ripper por lo tanto procederemos con la instalación.
+
+```sh
+https://andreafortuna.org/2019/03/20/cracking-microsoft-excel-documents-using-john-the-ripper/
+```
+Aqui dejo el link de la instalación para burlar contrasñas en Microsoft Excel con john.
+
+Una vez instalado procedemos a usar el comando para la contraseña.
+
+```sh
+john --rules --wordlist=PATH/rockyou.txt hash.txt
+```
+En el comando vemos rockyou.txt que es el diccionario que usamos para intentar que la herramienta pete la contraseña.
+
+Al entrar al documento vemos la evidencia clara que Emilia Crook ha pasado información a la competencia.
+
 
 
 
