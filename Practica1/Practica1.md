@@ -40,7 +40,13 @@ Una vez escogido el disco ejecutamos el programa.
 
 ![Alt Image](./imagenes/Autopsy4.png)
 
-Como 
+Como se puede ver en la imagen anterior con el programa Autopsy hemos sacado varios archivos donde podemos ver evidencias del delito.
+
+#### KALI
+
+***Foremost***
+
+
 
 
 
